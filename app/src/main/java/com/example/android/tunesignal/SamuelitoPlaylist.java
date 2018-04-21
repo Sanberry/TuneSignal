@@ -50,6 +50,8 @@ public class SamuelitoPlaylist extends AppCompatActivity {
                 ImageView pauseButton = (ImageView) findViewById(R.id.pause);
                 ImageView stopButton = (ImageView) findViewById(R.id.stop);
                 playButton.setVisibility(View.INVISIBLE);
+                pauseButton.setVisibility(View.VISIBLE);
+                stopButton.setVisibility(View.VISIBLE);
                 playButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

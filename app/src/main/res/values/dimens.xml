@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_spacing">15dp</dimen>
+    <dimen name="playlist_text_size">25sp</dimen>
+
+</resources>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="15dp"
+    android:padding="@dimen/general_spacing"
     tools:context=".SelectionPage">
 
     <LinearLayout
@@ -17,15 +17,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Playlists"
-            android:textSize="25sp"
+            android:text="@string/playlist"
+            android:textSize="@dimen/playlist_text_size"
             />
         <View
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/general_spacing"
             android:layout_marginBottom="45dp"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:background="#FFFFFF"/>
+            android:background="@color/colorWhite"/>
         <ImageButton
             android:id="@+id/SamuelitoSongs"
             android:layout_width="200dp"
@@ -41,7 +41,7 @@
             android:gravity="center"
             android:text="Samuelito Tunes"
             android:textSize="20sp"
-            android:padding="15dp"/>
+            android:padding="@dimen/general_spacing"/>
 
         <ImageButton
             android:id="@+id/AnxiousFreeSongs"
@@ -57,7 +57,7 @@
             android:gravity="center"
             android:text="Positive Tunes"
             android:textSize="20sp"
-            android:padding="15dp"/>
+            android:padding="@dimen/general_spacing"/>
 
     </LinearLayout>
 
