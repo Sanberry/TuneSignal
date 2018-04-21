@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">TuneStone</string>
     <string name="playlist">Playlist</string>
+    <string name="samuelito_tunes">Samuelito Tunes</string>
+    <string name="positive">Positive Tunes</string>
 
-    Playlists
 </resources>
