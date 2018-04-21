@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Samuelito Tunes"
+            android:text="@string/samuelito_tunes"
             android:textSize="20sp"
             android:padding="@dimen/general_spacing"/>
 
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Positive Tunes"
+            android:text="@string/positive"
             android:textSize="20sp"
             android:padding="@dimen/general_spacing"/>
 
