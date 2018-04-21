@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SelectionPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Playlists"
+            android:textSize="25sp"
+            />
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"/>
+        <ImageButton
+            android:id="@+id/SamuelitoSongs"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/samuelito"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Samuelito Tunes"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+
+        <ImageButton
+            android:id="@+id/AnxiousFreeSongs"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/relax"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Positive Tunes"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
