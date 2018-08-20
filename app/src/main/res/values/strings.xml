@@ -3,5 +3,21 @@
     <string name="playlist">Playlist</string>
     <string name="samuelito_tunes">Samuelito Tunes</string>
     <string name="positive">Positive Tunes</string>
-
+    <string name="lady_in_black">Uriah Heep - Lady in Black</string>
+    <string name="wuthering_heights">Kate Bush - Wuthering Heights</string>
+    <string name="the_bards_song">Blind Guardian - The Bard\'s Song</string>
+    <string name="the_magic_of_the_wizards_dream">Rhapsody - The Magic of the Wizard\'s Dream</string>
+    <string name="anyway_you_want_it">Journey - Anyway You Want It</string>
+    <string name="hijo_de_la_luna">Stravaganzza - Hijo De La Luna</string>
+    <string name="hoy_tuca_ser_feliz">Mägo de Oz - Hoy toca ser feliz</string>
+    <string name="angel_of_the_morning">Juice Newton - Angel of the Morning</string>
+    <string name="girls_just_want_to_have_fun">Cyndi Lauper - Girls Just Want to Have Fun</string>
+    <string name="across_the_sea">Leave\'s Eyes - Across the Sea</string>
+    <string name="draconian_love">Avantasia - Draconian Love</string>
+    <string name="love_me_in_black">Doro - Love me in Black</string>
+    <string name="whiskey_in_the_jar">The Dubliners - Whiskey in the Jar</string>
+    <string name="miss_conception">Elevenking - Miss Conception</string>
+    <string name="bohemian_rhapsody">The Muppets - Bohemian Rhapsody</string>
+    <string name="activity_name_samuelito">Samuelito Playlist</string>
+    <string name="activity_name_relaxation">Relaxation Playlist</string>
 </resources>

@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+
 public class SelectionPage extends AppCompatActivity {
+    private MediaPlayer mMediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +19,10 @@ public class SelectionPage extends AppCompatActivity {
         samuelitoPlayList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                releaseMediaPlayer();
                 Intent startSamuelioPlaylist = new Intent(SelectionPage.this, SamuelitoPlaylist.class);
                 startActivity(startSamuelioPlaylist);
+
 
             }
         });
@@ -26,10 +30,17 @@ public class SelectionPage extends AppCompatActivity {
         relaxationPlayList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                releaseMediaPlayer();
                 Intent startRelaxationPlaylist = new Intent(SelectionPage.this, RelaxationPlaylist.class);
                 startActivity(startRelaxationPlaylist);
             }
         });
     }
 
+    private void releaseMediaPlayer() {
+        if (mMediaPlayer != null) {
+            mMediaPlayer.release();
+            mMediaPlayer = null;
+        }
+    }
 }

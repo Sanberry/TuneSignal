@@ -10,54 +10,48 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="center"
-        >
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/general_spacing">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/playlist"
             android:textSize="@dimen/playlist"
-            />
+            android:textColor="@color/text_color_primary"/>
+
         <View
-            android:layout_marginTop="@dimen/general_spacing"
-            android:layout_marginBottom="@dimen/view_bottom_space"
+            style="@style/View"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/line_size"
-            android:background="@color/colorWhite"/>
+            android:layout_height="@dimen/line_size" />
+
         <ImageButton
             android:id="@+id/SamuelitoSongs"
+            style="@style/PlaylistButton"
             android:layout_width="@dimen/image_button_size"
             android:layout_height="@dimen/image_button_size"
-            android:layout_gravity="center"
-            android:src="@drawable/samuelito"
-            android:scaleType="fitCenter"
-            />
+            android:src="@drawable/samuelito" />
 
         <TextView
+            style="@style/PlaylistName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/samuelito_tunes"
-            android:textSize="@dimen/playlist_text_size"
-            android:padding="@dimen/general_spacing"/>
+            android:text="@string/samuelito_tunes" />
 
         <ImageButton
             android:id="@+id/AnxiousFreeSongs"
+            style="@style/PlaylistButton"
             android:layout_width="@dimen/image_button_size"
             android:layout_height="@dimen/image_button_size"
-            android:layout_gravity="center"
-            android:src="@drawable/relax"
-            android:scaleType="fitCenter"/>
+            android:src="@drawable/relax" />
 
         <TextView
+            style="@style/PlaylistName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/positive"
-            android:textSize="@dimen/playlist_text_size"
-            android:padding="@dimen/general_spacing"/>
+            android:text="@string/positive" />
 
     </LinearLayout>
 

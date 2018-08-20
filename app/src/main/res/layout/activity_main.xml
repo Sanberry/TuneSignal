@@ -5,35 +5,6 @@
     android:descendantFocusability="blocksDescendants"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/buttons"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:visibility="gone">
-
-        <ImageView
-            android:id="@+id/play"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/general_spacing"
-            android:src="@mipmap/ic_play_circle_outline_white_36dp" />
-
-        <ImageView
-            android:id="@+id/pause"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/general_spacing"
-            android:src="@mipmap/ic_pause_circle_outline_white_36dp" />
-
-        <ImageView
-            android:id="@+id/stop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/general_spacing"
-            android:src="@mipmap/ic_stop_white_36dp" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,23 +14,18 @@
 
         <ImageView
             android:id="@+id/album"
+            style="@style/AlbumImage"
             android:layout_width="@dimen/album_size"
-            android:layout_height="@dimen/album_size"
-            android:scaleType="fitCenter" />
+            android:layout_height="@dimen/album_size" />
 
         <TextView
             android:id="@+id/song_info"
+            style="@style/SongDetails"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/general_spacing"
-            android:ellipsize="marquee"
             android:focusable="true"
-            android:focusableInTouchMode="true"
-            android:marqueeRepeatLimit="marquee_forever"
-            android:scrollHorizontally="true"
-            android:singleLine="true"
-            android:textSize="@dimen/song_text_size" />
+
+            android:focusableInTouchMode="true" />
     </LinearLayout>
 
 </LinearLayout>

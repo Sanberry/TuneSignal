@@ -8,5 +8,7 @@
     <dimen name="line_size">3dp</dimen>
     <dimen name="album_size">70dp</dimen>
     <dimen name="song_text_size">18sp</dimen>
-
+    <dimen name="list_item_bottom_size">31dp</dimen>
+    <dimen name="list_margin">55dp</dimen>
+    <dimen name="button_layout_padding">10dp</dimen>
 </resources>
